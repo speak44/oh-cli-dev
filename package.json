@@ -10,8 +10,5 @@
   "license": "ISC",
   "devDependencies": {
     "lerna": "^5.1.6"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
