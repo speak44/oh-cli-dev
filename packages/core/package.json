@@ -1,6 +1,6 @@
 {
   "name": "@oh-cli-dev/core",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "oh-cli-dev core",
   "author": "",
   "homepage": "",
@@ -20,7 +20,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@oh-cli-dev/utils": "^1.0.3"
+    "@oh-cli-dev/utils": "^1.0.4"
   },
   "publishConfig": {
     "access": "public"
