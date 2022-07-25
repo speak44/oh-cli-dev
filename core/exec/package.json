@@ -1,6 +1,6 @@
 {
   "name": "@oh-cli-dev/exec",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "oh-cli-dev execute package",
   "author": "speak44 <1246806407@qq.com>",
   "homepage": "https://github.com/speak44/oh-cli-dev#readme",
@@ -17,8 +17,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@oh-cli-dev/package": "file:../../models/package",
-    "@oh-cli-dev/log": "file:../../utils/log"
+    "@oh-cli-dev/log": "file:../../utils/log",
+    "@oh-cli-dev/package": "file:../../models/package"
   },
   "repository": {
     "type": "git",

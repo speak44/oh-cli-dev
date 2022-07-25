@@ -1,6 +1,6 @@
 {
   "name": "@oh-cli-dev/core",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "oh-cli-dev core",
   "author": "",
   "homepage": "",
@@ -20,10 +20,10 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@oh-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
-    "@oh-cli-dev/log": "file:../../utils/log",
-    "@oh-cli-dev/init": "file:../../commands/init",
     "@oh-cli-dev/exec": "file:../exec",
+    "@oh-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
+    "@oh-cli-dev/init": "file:../../commands/init",
+    "@oh-cli-dev/log": "file:../../utils/log",
     "colors": "^1.4.0",
     "commander": "^9.4.0",
     "dotenv": "^16.0.1",
