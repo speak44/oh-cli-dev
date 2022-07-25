@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 const log = require('npmlog');
 log.level = process.env.LOG_LEVEL ? proccess.env.LOG_LEVEL : 'info'; // 判断debug模式
 log.heading = 'oh-cli'; // 修改前缀
