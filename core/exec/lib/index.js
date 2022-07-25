@@ -1,4 +1,5 @@
 'use strict';
+console.log(1);
 const path = require('path')
 const Package = require('@oh-cli-dev/package');
 const log = require('@oh-cli-dev/log');
