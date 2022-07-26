@@ -2,7 +2,7 @@
 const axios = require('axios');
 const urlJoin = require('url-join');
 const semver = require('semver');
-console.log(1);
+
 function getNpmInfo(npmName, registry) {
     if (!npmName) return;
     const registryUrl = registry || defaultRegistry();

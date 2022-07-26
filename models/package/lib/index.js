@@ -1,5 +1,5 @@
 'use strict';
-console.log(1);
+
 const path = require('path');
 const colors = require('colors');
 const fse = require('fs-extra');
@@ -104,7 +104,7 @@ class Package {
         }
         // 缓存
         if (this.storeDir) {
-           return _getRootFile(catchFilePath)
+           return _getRootFile(this.catchFilePath)
         } else {
            return _getRootFile(this.targetPath)
         }
